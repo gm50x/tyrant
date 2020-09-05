@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ES6",
+        "outDir": "dist",
+        "noEmitOnError": true,
+        "resolveJsonModule": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "lib": [
+            "ES6"
+        ]
+    },
+    "include": [
+        "src/**/*", "ts"
+    ]
+}
